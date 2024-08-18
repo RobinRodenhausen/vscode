@@ -1,0 +1,23 @@
+{
+    "editor.rulers": [
+        130
+    ],
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true
+    },
+    "terminal.integrated.defaultProfile.windows": "bash-login",
+    "terminal.integrated.profiles.linux": {
+        "bash-login": {
+            "path": "/bin/bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        }
+    }
+}
